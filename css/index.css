@@ -37,3 +37,7 @@
 input, textarea, button {
 	font-family: 'Cambria';
 }
+
+#comentario {
+	float: right;
+}
