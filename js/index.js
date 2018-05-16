@@ -58,17 +58,3 @@ function limpiarInput(){
   document.getElementById("comentario").innerHTML = "";
 
 }
-
-window.addEventListener("load", function() {
-  estatura.addEventListener("keypress", allowNumbers, false);
-  peso.addEventListener("keypress", allowNumbers, false);
-});
-
-function allowNumbers(e){
-  var tecla = window.event ? e.which : e.keyCode;
-
-  if (tecla < 48 || tecla > 57) {
-    e.preventDefault();
-  }
-  
-}
